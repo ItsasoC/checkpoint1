@@ -1,0 +1,75 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridTwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  
+  .gridTwo-text1{
+    background-color: red;
+  }
+  .gridTwo-text2{
+    background-color: blue;
+  }
+  .gridTwo-text3{
+    background-color: yellow;
+  }
+}
+
+.gridThree {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  
+  .gridThree-div2 img{
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+  }
+} 
+
+.gridFour {
+  background-color: green;
+  width: 500px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  
+  #gridFour-div2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.gridFive {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  
+  #gridFive-div2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+    .gridFive-div2-im1 img{
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .gridFive-div2-im2 img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+  }
+}
+
+.gridSix {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  background-color: lightgray;
+  width: 500px;
+
+  .gridSix-text p {
+    font-family: 'Ubuntu Condensed', sans-serif;
+  }
+}
